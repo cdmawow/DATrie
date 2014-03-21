@@ -1,10 +1,3 @@
-/* Copyright (C), 1998-2011, Tencent Technology Company Limited
- *
- * @author genelin
- * @since 2011-10-17
- * @brief double array trie 字典
- */
-
 #ifndef DA_TRIE_DICT_H
 #define DA_TRIE_DICT_H
 
@@ -13,9 +6,6 @@
 #include <stdexcept>
 #include "string_util.hpp"
 #include "double_array_trie.h"
-
-namespace new_word
-{
 
 template<typename TValue>
 class IDATrieDict
@@ -98,7 +88,6 @@ private:
     std::vector<float> m_value;
 
 };
-} // namespace new_word
 
 #endif // DA_TRIE_DICT_H
 

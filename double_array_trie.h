@@ -1,7 +1,3 @@
-// Copyright 2011 Tencent Inc.
-// Author: Taku Kudo
-// Revisor: Jian Zhu (jianzhu@tencent.com)
-
 #ifndef DOUBLE_ARRAY_TRIE_H_
 #define DOUBLE_ARRAY_TRIE_H_
 

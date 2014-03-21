@@ -5,8 +5,6 @@
 #include "dat.hpp"
 
 using namespace std;
-namespace new_word
-{
 
 int IntDATrieDict::LoadRawDict(const char *file_name)
 {
@@ -272,6 +270,5 @@ uint32_t FloatDATrieDict::LongestMatch(const char *text,
 
     return 0;
 }
-} // namespace strategy
 
 

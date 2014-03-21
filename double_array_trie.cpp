@@ -1,5 +1,3 @@
-// Copyright 2011 Tencent Inc.
-
 #include "double_array_trie.h"
 
 template <class T>
