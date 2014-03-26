@@ -4,8 +4,7 @@
 #include <stdint.h>
 #include <string>
 #include <stdexcept>
-#include "string_util.hpp"
-#include "double_array_trie.h"
+#include "dat.h"
 
 template<typename TValue>
 class IDATrieDict
@@ -90,5 +89,3 @@ private:
 };
 
 #endif // DA_TRIE_DICT_H
-
-
